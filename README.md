@@ -1,21 +1,21 @@
 Brand Patterns
 ==================
 
-**Theme Name:** Brand Patterns
+**Theme Name:** The Metropolitan Theatre
 
-**Theme Description:** Theme for Brand Patterns.
+**Theme Description:** Theme for the Metropolitan Theatre Website, 2016. Created by Octavia Spriggs in coordination with the WVU College of Creative Arts.
 
-**Developers name(s):** May Day
+**Developers name(s):** Octavia Spriggs
 
-**Stash repository URL:** [https://stash.development.wvu.edu/projects/CST/repos/brand-patterns/browse](https://stash.development.wvu.edu/projects/CST/repos/brand-patterns/browse)
+**Github repository URL:** [https://github.com/osteffich/met-theatre](https://github.com/osteffich/met-theatre)
 
-**Dependencies necessary to work with this theme:** Sass.
+**Dependencies necessary to work with this theme:** Sass. Codekit.
 
 **Other notes, comments, or reminders:**
 
-  1. Copy the files you want from the WVU Brand Patterns theme into your new theme.
-  1. Paste the following commands in Terminal from within your theme's top-level directory: `sass --watch scss/styles.scss:stylesheets/styles.css` and, in a new terminal window inside your theme, `sass --watch scss/ie8.scss:stylesheets/ie8.css` or use Gulp to compile your Sass.
+  1. Based on the WVU Brand Patterns Theme.
   1. Test your theme in [Hammer](https://github.com/wvuweb/hammer-vm).
+  1. Compile sass with Codekit.
   1. Push and sync your theme in CleanSlate.
 
 Need some help? [Read the CleanSlate documentation](https://cleanslatecms.wvu.edu/how-to/theme-development).

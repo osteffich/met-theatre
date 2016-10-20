@@ -8,6 +8,7 @@
     <meta name="description" content="<r:page:meta_description />" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="google-site-verification" content="<r:site:data name="google_site_verification" />" />
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <r:include_stylesheet name="styles" />
 
     <!--[if lt IE 9]>
@@ -26,16 +27,10 @@
 
     <a class="wvu-skip-nav" href="#maincontent">Skip to main content</a>
 
-    <r:partial name="patterns/wvu-masthead" />
-
-    <r:partial name="patterns/wvu-nav" />
+    <r:partial name="patterns/met-nav" />
 
     <r:comment><!-- What are layouts and <r:yield />? http://goo.gl/DFAsPv --></r:comment>
     <r:yield />
-
-    <div class="wvu-container">
-      <r:partial name="patterns/wvu-footer" />
-    </div>
 
     <script async src="https://fast.fonts.net/jsapi/3f7b1335-4c99-4404-92cf-3ba0e32e8f17.js"></script> <r:comment><!-- Helvetica Neue Light & Bold Condensed web font, valid for *.wvu.edu, *.wvutech.edu, & localhost --></r:comment>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>

@@ -11,3 +11,208 @@
 @import '3-layouts/layouts-dir';
 @import '1-base/ie9';
 @import '4-custom/custom-dir';
+
+//breakpoints
+
+$xlarge: new-breakpoint(min-width 1200px);
+$large: new-breakpoint(min-width 1000px);
+$medium: new-breakpoint(min-width 800px);
+$small: new-breakpoint(min-width 640px);
+$xsmall: new-breakpoint(min-width 320px);
+
+* {margin:0;}
+html, body {height:100%;position:relative;margin:0;padding:0;box-sizing:border-box;}
+
+// headers and typography
+
+h1, h2, h3 {
+  font-family:garamond;
+  color:#910013;
+  font-weight:bold;
+  font-size:3.2em;
+}
+
+h2 {
+  font-size:2.8em;
+}
+
+h3 {
+  font-size:2em;
+  color:#000;
+}
+
+h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  color:#000;
+}
+
+p {
+  font-weight:normal;
+  font-family: 'Lato', sans-serif;
+  color:#000;
+}
+
+blockquote {
+  color:#8b8b8b;
+  line-height:2.1em;
+  margin:1em 2em 1em 3em;
+}
+
+hr {
+  border-top:1px solid #ccc;
+}
+
+.met-nav-sidebar {
+  background-color:#454545;
+  padding:3em;
+  @include span-columns(4);
+  height:100%;
+
+  background-image: url('../images/banner-detail.png');
+  background-repeat: repeat-x;
+  background-size:contain;
+  background-position:top;
+  p {color:#fff;}
+  @include media($xsmall) {
+    @include span-columns(12);
+    background-repeat: no-repeat;
+  }
+  @include media($medium) {
+    @include span-columns(4);
+    background-repeat: no-repeat;
+    margin-right:0;
+    position:fixed;
+  }
+
+  // Logo
+
+      .logo {
+        background-image: url('../images/met-logo-retina.jpg');
+        background-repeat: no-repeat;
+        background-size:contain;
+        position: relative;
+        text-indent: -9999em;
+        width: auto;
+
+        @include media($xsmall) {
+          @include span-columns(12);
+          background-repeat: no-repeat;
+          width: 100%;
+          background-size: contain;
+          height: 74px;
+          margin-top:2em;
+        }
+
+        @include media($small) {
+          margin-top:1.5em;
+        }
+
+        @include media ($large) {
+          @include span-columns(3);
+          background-image: url('../images/met-logo-retina.png');
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 100%;
+          margin-bottom:3em;
+          margin-top:1em;
+        }
+
+        @include hidpi(1.5) {
+          background-image: url('../images/met-logo-retina.png');
+        }
+      }
+
+
+  .met-nav {
+      margin-bottom:6em;
+      overflow:hidden;
+      clear:both;
+
+      @include media($xsmall) {
+        padding-top:2em;
+      }
+
+      @include media($medium) {
+        padding-top:0;
+      }
+
+      .wvu-nav__items li {
+          @include media ($medium){
+            float:none;
+          }
+      }
+      ul {
+        list-style-type: none;
+        padding:0;
+        margin:0;
+      }
+      li a {
+        display:block;
+        color:#fdedc2;
+        text-transform:uppercase;
+        margin:0;
+        padding:.25em 0;
+        font-family: 'Lato', sans-serif;
+        font-weight:600;
+      }
+      li a:hover {
+        background-color:transparent;
+        color:#e0b749;
+      }
+      a.nav-toggle {
+        background-color:#b78603;
+        color:#fff;
+        text-transform:uppercase;
+        font-weight:600;
+        font-family: 'Lato', sans-serif;
+      }
+    }
+
+    .met-nav-footer {
+      .met-social {margin-bottom:2em;}
+      font-family: 'Lato', sans-serif;
+      font-size:.8em;
+      line-height:1.8em;
+      color:#fff;
+    }
+}
+
+.header_image {
+  padding:0;
+  margin:0;
+    @include media($xsmall) {
+      @include span-columns(12);
+    }
+    @include media($medium) {
+      @include span-columns(7);
+    }
+}
+
+
+.main {
+  padding:3em;
+  font-weight:normal;
+  font-family: 'Lato', sans-serif;
+  color:#000;
+  line-height:2.1em;
+
+  p {
+    font-weight:normal;
+    font-family: 'Lato', sans-serif;
+    color:#000;
+    line-height:2.1em;
+    padding-top:1em;
+  }
+
+
+  @include media($xsmall) {
+    @include span-columns(12);
+  }
+
+  @include media($medium) {
+    @include span-columns(7);
+    padding-left:3em;
+      position:relative;
+      margin-left:32%;
+  }
+}
