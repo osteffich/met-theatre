@@ -216,8 +216,9 @@ a.button-gold {
         font-family: 'Lato', sans-serif;
 
       }
-      .nav-collapse .opened {
-        height:auto;
+      .nav-collapse-0 .opened {
+        max-height:100%;
+        overflow:none;
         clear:both;
       }
     }
