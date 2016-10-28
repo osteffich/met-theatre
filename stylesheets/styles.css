@@ -3627,6 +3627,14 @@ hr {
   margin-bottom: 2em;
 }
 
+.met-nav-sidebar a {
+  color: #fdedc2;
+}
+
+.met-nav-sidebar a:hover {
+  color: #e0b749;
+}
+
 .header_image {
   padding: 0;
   margin: 0;
@@ -3714,6 +3722,10 @@ hr {
   .main_with_sidebar:last-child {
     margin-right: 0;
   }
+}
+
+.main_with_sidebar hr {
+  margin: 1em 0;
 }
 
 .wvu-sidebar {

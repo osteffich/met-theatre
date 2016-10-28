@@ -181,6 +181,8 @@ hr {
       line-height:1.8em;
       color:#fff;
     }
+    a {color:#fdedc2;}
+    a:hover {color:#e0b749;}
 }
 
 .header_image {
@@ -231,6 +233,9 @@ hr {
 .main_with_sidebar {
   @include media($medium) {
     @include span-columns(5);
+  }
+  hr {
+    margin:1em 0;
   }
 }
 
