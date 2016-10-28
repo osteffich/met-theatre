@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+
+  <main id="maincontent" class="main_with_sidebar">
+    <h1><r:page:name /></h1>
+    <r:editable_region name="main" />
+  </main>
+
+  <aside class="wvu-sidebar">
+    <div class="wvu-sub-nav">
+      <r:ancestor_menu start_depth="2" max_depth="3" ul_class="nav-secondary" active_class="nav-secondary--current-page" open_class="nav-secondary--open" />
+    </div> <!-- /.wvu-sub-nav -->
+    <r:editable_region name="sidebar" />
+  </aside>

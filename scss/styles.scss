@@ -16,7 +16,7 @@
 
 $xlarge: new-breakpoint(min-width 1200px);
 $large: new-breakpoint(min-width 1000px);
-$medium: new-breakpoint(min-width 800px);
+$medium: new-breakpoint(min-width 770px);
 $small: new-breakpoint(min-width 640px);
 $xsmall: new-breakpoint(min-width 320px);
 
@@ -30,6 +30,8 @@ h1, h2, h3 {
   color:#910013;
   font-weight:bold;
   font-size:3.2em;
+  a {color:#996f00; text-decoration:none;font-weight:normal}
+  a:hover {text-decoration:underline;color:#996f00;}
 }
 
 h2 {
@@ -45,6 +47,8 @@ h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   color:#000;
 }
+
+h5 {text-transform:uppercase;}
 
 p {
   font-weight:normal;
@@ -67,7 +71,6 @@ hr {
   padding:3em;
   @include span-columns(4);
   height:100%;
-
   background-image: url('../images/banner-detail.png');
   background-repeat: repeat-x;
   background-size:contain;
@@ -76,12 +79,14 @@ hr {
   @include media($xsmall) {
     @include span-columns(12);
     background-repeat: no-repeat;
+    height:auto;
   }
   @include media($medium) {
     @include span-columns(4);
     background-repeat: no-repeat;
     margin-right:0;
     position:fixed;
+      height:100%;
   }
 
   // Logo
@@ -124,15 +129,16 @@ hr {
 
 
   .met-nav {
-      margin-bottom:6em;
       overflow:hidden;
       clear:both;
 
       @include media($xsmall) {
         padding-top:2em;
+        margin-bottom:2em;
       }
 
       @include media($medium) {
+        margin-bottom:6em;
         padding-top:0;
       }
 
@@ -189,7 +195,7 @@ hr {
 }
 
 
-.main {
+.main, .main_feature_image, .main_with_sidebar {
   padding:3em;
   font-weight:normal;
   font-family: 'Lato', sans-serif;
@@ -204,7 +210,6 @@ hr {
     padding-top:1em;
   }
 
-
   @include media($xsmall) {
     @include span-columns(12);
   }
@@ -212,7 +217,39 @@ hr {
   @include media($medium) {
     @include span-columns(7);
     padding-left:3em;
-      position:relative;
-      margin-left:32%;
+    padding-top:4.5em;
+    position:relative;
+    margin-left:32%;
   }
+}
+
+.main_feature_image {
+  padding:0
+}
+
+//backpage styles
+.main_with_sidebar {
+  @include media($medium) {
+    @include span-columns(5);
+  }
+}
+
+
+//subnav sidebar
+
+.wvu-sidebar {
+  position:relative;
+  @include media($xsmall) {
+    @include span-columns(12);
+      padding:0 3em;
+  }
+
+  @include media($medium) {
+    @include span-columns(2);
+    padding-left:3em;
+    padding-top:4.5em;
+  }
+
+  a:hover {color:#002855}
+
 }
