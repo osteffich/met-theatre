@@ -3663,6 +3663,10 @@ a.button-gold:hover {
   clear: both;
 }
 
+.met-nav-sidebar .met-nav .js .nav-collapse-0.opened {
+  max-height: 100% !important;
+}
+
 .met-nav-sidebar .met-nav-footer {
   font-family: 'Lato', sans-serif;
   font-size: .8em;

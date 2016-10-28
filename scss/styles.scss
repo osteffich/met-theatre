@@ -221,6 +221,9 @@ a.button-gold {
         overflow:none;
         clear:both;
       }
+      .js .nav-collapse-0.opened {
+        max-height:100% !important;
+      }
     }
 
     .met-nav-footer {
