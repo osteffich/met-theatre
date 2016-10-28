@@ -3655,11 +3655,11 @@ a.button-gold:hover {
   text-transform: uppercase;
   font-weight: 600;
   font-family: 'Lato', sans-serif;
-  clear: both;
 }
 
-.met-nav-sidebar .met-nav .nav-collapse {
+.met-nav-sidebar .met-nav .nav-collapse .opened {
   height: auto;
+  clear: both;
 }
 
 .met-nav-sidebar .met-nav-footer {
