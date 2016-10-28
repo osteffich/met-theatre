@@ -233,6 +233,8 @@ hr {
 .main_with_sidebar {
   @include media($medium) {
     @include span-columns(5);
+    padding-right:1em;
+    margin-right:0;
   }
   hr {
     margin:1em 0;
@@ -250,7 +252,7 @@ hr {
   }
 
   @include media($medium) {
-    @include span-columns(2);
+    @include span-columns(3);
     padding-left:3em;
     padding-top:4.5em;
   }

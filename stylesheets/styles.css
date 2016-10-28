@@ -3718,6 +3718,8 @@ hr {
     display: block;
     margin-right: 2.3576515979%;
     width: 40.2913699012%;
+    padding-right: 1em;
+    margin-right: 0;
   }
   .main_with_sidebar:last-child {
     margin-right: 0;
@@ -3750,7 +3752,7 @@ hr {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 14.7019570017%;
+    width: 23.2317613015%;
     padding-left: 3em;
     padding-top: 4.5em;
   }
