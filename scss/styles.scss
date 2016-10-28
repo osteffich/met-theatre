@@ -157,7 +157,7 @@ hr {
         color:#fdedc2;
         text-transform:uppercase;
         margin:0;
-        padding:.25em 0;
+        text-decoration:none;
         font-family: 'Lato', sans-serif;
         font-weight:600;
       }
@@ -181,7 +181,7 @@ hr {
       line-height:1.8em;
       color:#fff;
     }
-    a {color:#fdedc2;}
+    a {color:#fdedc2;text-decoration:none;}
     a:hover {color:#e0b749;}
 }
 
