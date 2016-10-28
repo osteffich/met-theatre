@@ -3657,7 +3657,7 @@ a.button-gold:hover {
   font-family: 'Lato', sans-serif;
 }
 
-.met-nav-sidebar .met-nav .nav-collapse-0 .opened {
+.met-nav-sidebar .met-nav ul.nav-collapse.nav-collapse-0.opened {
   max-height: 100%;
   overflow: none;
   clear: both;
