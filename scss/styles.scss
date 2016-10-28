@@ -66,6 +66,48 @@ hr {
   border-top:1px solid #ccc;
 }
 
+a:hover {
+  color:#002855;
+}
+
+// buttons
+
+// buttons
+a.button-red {
+  background-color:#910013;
+  border: 0;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+  padding: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+    @include media($xsmall) {
+      margin-bottom:1em;
+    }
+
+  &:hover {
+    background-color:#5d000c;
+  }
+}
+
+a.button-gold {
+  background-color:#ac810d;
+  border: 0;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+  padding: 1em;
+  text-transform: uppercase;
+  color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    background-color: #e0b749;
+  }
+}
+
+// site styles
+
 .met-nav-sidebar {
   background-color:#454545;
   padding:3em;
@@ -246,6 +288,11 @@ hr {
 
 .wvu-sidebar {
   position:relative;
+  font-weight:normal;
+  font-family: 'Lato', sans-serif;
+  color:#000;
+  line-height:2.1em;
+
   @include media($xsmall) {
     @include span-columns(12);
       padding:0 3em;
