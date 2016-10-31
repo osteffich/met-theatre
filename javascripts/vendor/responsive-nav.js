@@ -615,7 +615,7 @@
       _transitions: function () {
         if (opts.animate) {
           var objStyle = nav.style,
-            transition = "max-height " + opts.transition + "ms";
+            transition = opts.transition + "ms";
 
           objStyle.WebkitTransition =
           objStyle.MozTransition =
