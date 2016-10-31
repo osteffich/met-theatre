@@ -296,6 +296,7 @@
       open: function () {
         if (!navOpen) {
           removeClass(nav, "closed");
+          addClass(nav, "opened");
           addClass(htmlEl, opts.navActiveClass);
           addClass(navToggle, "active");
           nav.style.position = opts.openPos;
