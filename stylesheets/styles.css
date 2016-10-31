@@ -3453,6 +3453,7 @@ blockquote {
 
 hr {
   border-top: 1px solid #ccc;
+  margin: 1em 0;
 }
 
 a:hover {
@@ -3777,10 +3778,6 @@ a.button-gold:hover {
   .main_with_sidebar:last-child {
     margin-right: 0;
   }
-}
-
-.main_with_sidebar hr {
-  margin: 1em 0;
 }
 
 .wvu-sidebar {

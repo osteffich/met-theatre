@@ -65,6 +65,7 @@ blockquote {
 
 hr {
   border-top:1px solid #ccc;
+  margin:1em 0;
 }
 
 a:hover {
@@ -288,9 +289,6 @@ a.button-gold {
     @include span-columns(5);
     padding-right:1em;
     margin-right:0;
-  }
-  hr {
-    margin:1em 0;
   }
 }
 
