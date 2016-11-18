@@ -3711,7 +3711,7 @@ a.button-gold:hover {
     float: left;
     display: block;
     margin-right: 2.3576515979%;
-    width: 74.4105871005%;
+    width: 100%;
   }
   .header_image:last-child {
     margin-right: 0;
@@ -3755,7 +3755,7 @@ a.button-gold:hover {
     padding-left: 3em;
     padding-top: 4.5em;
     position: relative;
-    margin-left: 31.7%;
+    margin-left: 31.8%;
   }
   .main:last-child, .main_feature_image:last-child, .main_with_sidebar:last-child {
     margin-right: 0;
