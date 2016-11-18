@@ -3815,6 +3815,10 @@ a.button-gold:hover {
   }
 }
 
+.wvu-sidebar h3 {
+  margin-top: 0;
+}
+
 .wvu-sidebar a:hover {
   color: #002855;
 }
