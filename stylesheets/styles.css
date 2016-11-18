@@ -3706,18 +3706,6 @@ a.button-gold:hover {
   }
 }
 
-@media screen and (min-width: 770px) {
-  .header_image {
-    float: left;
-    display: block;
-    margin-right: 2.3576515979%;
-    width: 57.3509785009%;
-  }
-  .header_image:last-child {
-    margin-right: 0;
-  }
-}
-
 .main, .main_feature_image, .main_with_sidebar {
   padding: 3em;
   font-weight: normal;
@@ -3755,7 +3743,7 @@ a.button-gold:hover {
     padding-left: 3em;
     padding-top: 4.5em;
     position: relative;
-    margin-left: 32%;
+    margin-left: 31.5%;
   }
   .main:last-child, .main_feature_image:last-child, .main_with_sidebar:last-child {
     margin-right: 0;

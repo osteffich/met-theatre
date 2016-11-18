@@ -245,9 +245,6 @@ a.button-gold {
     @include media($xsmall) {
       @include span-columns(12);
     }
-    @include media($medium) {
-      @include span-columns(7);
-    }
 }
 
 
@@ -275,7 +272,7 @@ a.button-gold {
     padding-left:3em;
     padding-top:4.5em;
     position:relative;
-    margin-left:32%;
+    margin-left:31.5%;
   }
 }
 
