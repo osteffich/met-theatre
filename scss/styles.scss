@@ -310,7 +310,7 @@ a.button-gold {
   @include media($medium) {
     @include span-columns(3);
     padding-left:3em;
-    padding-top:4.5em;
+    padding-top:2em;
   }
 
   a:hover {color:#002855}
